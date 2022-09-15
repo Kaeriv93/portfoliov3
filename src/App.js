@@ -1,9 +1,9 @@
 import "./index.css"
 import Navigation from "./routes/navigation/Navigation.component";
-import About from "./routes/About";
-import Contact from "./routes/Contact";
-import Home from "./routes/Home";
-import Project from "./routes/Project";
+import About from "./routes/about/About";
+import Contact from "./routes/contact/Contact";
+import Home from "./routes/home/Home";
+import Project from "./routes/project/Project";
 import { Routes, Route } from 'react-router-dom';
 
 function App() {

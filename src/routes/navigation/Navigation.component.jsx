@@ -1,10 +1,25 @@
-import { Outlet } from "react-router-dom";
-import './navigation.styles.scss'
+import { Outlet, Link } from "react-router-dom";
+import './navigation.styles.scss';
 const Navigation = () =>{
     return(
         <div className="navigation-container">
-            <h1>This is the navigation page</h1>
-            <p>And this is not</p>
+            <Link to ='/'>
+                 <h1>Portfolio</h1>
+            </Link>
+            <ul>
+                <li>
+                    <Link to ='/'>Home</Link>
+                </li>
+                <li>
+                    <Link to ='/about'>About</Link>
+                </li>
+                <li>
+                    <Link to ='/project'>Projects</Link>
+                </li>
+                <li>
+                    <Link to ='/contact'>Contact</Link>
+                </li>
+            </ul>
             <Outlet/>
         </div>
         
