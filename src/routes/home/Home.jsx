@@ -1,8 +1,11 @@
+import Navigation from "../../components/navigation/Navigation.component";
+import HeroImg from "../../components/heroimg/HeroImg";
 
 const Home = () =>{
     return(
         <div>
-            <h1>This is our homepage</h1>
+            <Navigation/>
+            <HeroImg/>
         </div>
     )
 }
