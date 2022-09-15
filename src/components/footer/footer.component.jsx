@@ -26,9 +26,9 @@ const Footer = () =>{
                       Javascript, plus modern libraries and frameworks.
                     </p>
                     <div className="social-links">
-                        <FaGithub size={30} style={{color: "#fff", marginRight: "2rem"}}/>
-                        <FaLinkedin size={30} style={{color: "#fff", marginRight: "2rem"}}/>
-                        <FaTwitter size={30} style={{color: "#fff", marginRight: "2rem"}}/>
+                        <a href ="https://github.com/Kaeriv93" target="_blank" rel="noopener noreferrer"><FaGithub size={30} style={{color: "#fff", marginRight: "2rem"}}/></a>
+                        <a href= "https://www.linkedin.com/in/vireaksan/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={30} style={{color: "#fff", marginRight: "2rem"}}/></a>
+                        <a href="https://twitter.com/kaeriv93" target="_blank" rel="noopener noreferrer"><FaTwitter size={30} style={{color: "#fff", marginRight: "2rem"}}/></a>
                     </div>
 
                 </div>
