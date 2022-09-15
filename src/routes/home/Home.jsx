@@ -1,4 +1,5 @@
 import HeroImg from "../../components/heroimg/HeroImg";
+
 const Home = () =>{
     return(
         <div>

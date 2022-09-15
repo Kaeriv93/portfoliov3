@@ -1,5 +1,5 @@
 import "./projectcards.styles.scss";
-import { NavLink } from "react-router-dom";
+
 const ProjectCards = ({projects}) =>{
     const projectData = () => {
         return projects.map((project, idx) =>(
@@ -11,8 +11,8 @@ const ProjectCards = ({projects}) =>{
                     <p>TECH: {project.tech}</p>
                 </div>
                 <div className="pro-btns">
-                    <NavLink to={project.live} className="btn">View</NavLink>
-                    <NavLink to={project.git} className="btn">Source</NavLink>
+                    <a href={project.live} target = "_blank" rel="noopener noreferrer" className="btn">View</a>
+                    <a href={project.git} target = "_blank" rel="noopener noreferrer"  className="btn">Source</a>
                 </div>
             </div>
         ))
