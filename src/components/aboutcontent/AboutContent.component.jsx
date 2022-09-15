@@ -11,6 +11,13 @@ const AboutContent = () =>{
                 I enjoy working with React and using different apis. When I'm not working on the latest technologies I love to take my dogs out for a walk and enjoy watching anime.
                 </p>
                 <Link to ='/contact'><button className="btn">CONTACT</button></Link>
+                <h1>My Skills</h1>
+                <h2>Languages:</h2>
+                <p>PYTHON, HTML, CSS, JAVASCRIPT, JAVA, SQL</p>
+                <h2>Frameworks & Libraries</h2>
+                <p>SPRING, REACT, ANGULAR, EJS, LIQUID, BOOTSTRAP, BULMA</p>
+                <h2>Databases</h2>
+                <p>MONGODB, POSTGRESQL, MYSQL, ORACLE</p>
             </div>
             <div className="right-container">
                 <div className="img-container">

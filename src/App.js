@@ -5,6 +5,7 @@ import Home from "./routes/home/Home";
 import Project from "./routes/project/Project";
 import {useState, useEffect} from 'react';
 import { Routes, Route } from 'react-router-dom';
+import 'react-toastify/dist/ReactToastify.css'
 
 
 function App() {
