@@ -1,8 +1,8 @@
-
+import Heroimg2 from "../../components/heroimg2/HeroImg2.component";
 const Contact = () =>{
     return(
         <div>
-            <h1>This is our contact page</h1>
+            <Heroimg2 heading="CONTACT." text="Let's have a chat"/>
         </div>
     )
 }

@@ -1,8 +1,9 @@
+import Heroimg2 from "../../components/heroimg2/HeroImg2.component";
 
 const About = () =>{
     return(
         <div>
-            <h1>This is our about page</h1>
+            <Heroimg2 heading="ABOUT ME." text="I'm a Front-End Developer"/>
         </div>
     )
 }

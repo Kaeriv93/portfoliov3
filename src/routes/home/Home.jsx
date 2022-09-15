@@ -1,10 +1,9 @@
-import Navigation from "../../components/navigation/Navigation.component";
 import HeroImg from "../../components/heroimg/HeroImg";
-
+// import Navigation from "../../components/navigation/Navigation.component"
 const Home = () =>{
     return(
         <div>
-            <Navigation/>
+            {/* <Navigation/> */}
             <HeroImg/>
         </div>
     )

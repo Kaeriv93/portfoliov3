@@ -7,9 +7,17 @@ import {useState} from 'react';
 const Navigation = () =>{
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
+
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+        if(window.scrollY >= 1) 
+            setColor(true);          
+        else setColor(false);
+    }
+    window.addEventListener("scroll", changeColor);
     return(
         <>
-            <div className="navigation-container">
+            <div className={color ? "navigation-container navigation-container-bg" : "navigation-container"}>
                 <Link to ='/'>
                     <h1>Portfolio</h1>
                 </Link>
